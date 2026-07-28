@@ -26,6 +26,5 @@ jobs:
       run: |
         flake8 .
 
-    - name: Run Unit Tests
-      run: |
-        nosetests
+    - name: Run unit test
+  run: pytest
